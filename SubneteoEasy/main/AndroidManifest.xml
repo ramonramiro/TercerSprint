@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.principa.subnetting.easy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivitiesLogin.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity.MenuActivity"
+            android:label="SubneteoEasy"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Viewers.VideoViewfinder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Viewers.CalculatorViewfinder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesGames.MemoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesGames.QuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesGames.ToPlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesSteps.ClassExampleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesSteps.ActivityThreeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesLogin.ForoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesLogin.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesSteps.AddressTableActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesSteps.StepFourActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity.RadioButtonMenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesSteps.StepOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesSteps.StepTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivitiesSteps.PublicPrivateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Units.UnitOne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Units.UnitTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Units.UnitThree"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Units.UnitFour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Units.UnitFive"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Theory.TheoryOne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Theory.TheoryTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Theory.TheoryThree"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Theory.TheoryFive"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Viewers.ViewerHome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Viewers.ViewerFacebook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Viewers.ViewerTwitter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewfinderPdf"
+            android:screenOrientation="portrait" />
+        <activity android:name=".NewsActivity" />
+        <activity android:name=".ViewerByeIpv" />
+        <activity android:name=".ViewerConvergingNetworks" />
+        <activity android:name=".ViewerIpvSix" />
+        <activity android:name=".ViewerOpticalFiber" />
+        <activity android:name=".ViewerCiscoDay" />
+        <activity android:name=".ViewerDictionary"></activity>
+    </application>
+
+</manifest>
